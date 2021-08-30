@@ -18,21 +18,19 @@
 
     margin-top: 10px;
   }
-}
 
-.qualities__list {
-  display: flex;
+  &__list {
+    display: flex;
 
-  & .qualities__item:not(:last-child) {
-    margin-right: 30px;
+    & .qualities__item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    & .qualities__item {
+      flex-basis: 270px;
+    }
   }
 
-  & .qualities__item {
-    flex-basis: 270px;
-  }
-}
-
-.qualities {
   &__antenna,
   &__clock,
   &__diagram,

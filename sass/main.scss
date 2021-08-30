@@ -1,12 +1,13 @@
 @import './utils/variables';
-@import './components/page-header';
-@import './components/page-hero-index';
-@import './components/page-qualities-index';
-@import './components/page-tasks-index';
-@import './components/page-team-index';
-@import './components/page-clients-index';
-@import './components/page-footer';
-@import './components/page-modal-index';
+@import './base/common';
+@import './components/header';
+@import './layouts/hero-index';
+@import './layouts/qualities-index';
+@import './layouts/tasks-index';
+@import './layouts/team-index';
+@import './layouts/clients-index';
+@import './components/footer';
+@import './layouts/modal-index';
 
-@import './components/page-filter-portfolio';
-@import './components/page-projects-portfolio';
+@import './layouts/filter-portfolio';
+@import './layouts/projects-portfolio';
